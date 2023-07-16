@@ -17,7 +17,7 @@ EOF
 $ docker run -it --rm \
   --volume "$(pwd):/data" \
   --user $(id -u):$(id -g) \
-  grc.io/l-lin/termgraph:latest \
+  ghcr.io/l-lin/termgraph:main \
     ex1.dat
 
 2007: ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ 183.32
